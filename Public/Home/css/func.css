@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+#intro {
+	background: #404040;
+	float: left;
+	width: 80%;
+	height: auto;
+	color: white;
+}
+
+#intro ul {
+	margin-left: -40px;
+}
+
+#department {
+	background: #404040;
+	float: left;
+	width: 987px;
+	height: auto;
+	color: white;
+}
+
+#block {
+	width: 70%;
+	height: auto;
+	padding-left: 130px;
+	padding-top: 60px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 200px;
+}
+
+#huizhang, #like {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 0;
+	float: left;
+	margin-top: 0px;
+	background: #E84C3D;
+}
+
+#wenke, #bianji {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #F1C40F;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#jiaowu, #zuzhi {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #F1C40F;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#more {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #404040;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#shijian, #tongchou {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background: #E84C3D;
+	margin-top: 0px;
+}
+
+#block a {
+	text-decoration: none;
+	color: white;
+}
+
+#block a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#logo {
+	background: #404040;
+	float: left;
+	width: 70%;
+	height: auto;
+	padding-left: 100px;
+	color: white;
+}
+
+#logo ul {
+	margin-left: 25px;
+}
+#member 
+{
+	background: #404040;
+	float: left;
+	width: 70%;
+	height: auto;
+	padding-left: 100px;
+	color: white;
+}
+#consult img{
+	position:relative;
+	margin-left: 100px;
+	margin-top: 50px;
+	float:left;
+	color:white;
+	text-align:center;
+	border-radius: 15px;
+	color:black;
+	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(3px); /* Chrome, Opera */
+       -moz-filter: blur(3px);
+        -ms-filter: blur(3px);    
+            filter: blur(3px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=false); 
+}
+
+#consult ul li {
+	float:left;
+}
+#consult ul li a{
+	text-align: center;
+	padding-left: 80px;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+}
+#consult ul li a:hover{
+	color:black;
+}
+#consult ul li.name{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 300px;
+}
+#consult ul li.college{
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 300px;
+}
+#consult ul li.major{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 300px;
+}
+#consult ul li.check{
+	position: absolute;
+	margin-left: 570px;
+	margin-top: 350px;
+}
+#consult form input{
+	border-radius: 5px;
+	
+}
+
+#activity{
+	float:left;
+	color:white;
+	width:70%;
+}
+#activity ul{
+	color:white;
+}
+#activity ul li{
+	float:left;
+	padding-left: 30px;
+}
+#activity ul li a{
+	text-align: center;
+	padding:0px 15px;
+	color:white;
+	line-height: 50px;
+	text-decoration: none;
+}
+#activity ul li a:hover{
+	color: black;
+	background:white;
+	border-radius: 3px;
+}
+#album ul{
+	padding: 150px;
+	padding-right: 20px;
+
+}
+#album ul li{
+	float:left;
+	padding:  10px;
+	margin:20px;
+	width:250px;
+	height:200px;
+	background:black;
+	text-align: center;
+}
+#album img{
+	padding-bottom: 15px;
+}
+#album ul li a{
+	color:white;
+	text-decoration: none;
+
+}
+#album ul li a:hover{
+	text-decoration: underline;
+}
+#photo ul{
+	padding: 150px;
+	padding-right: 20px;
+
+}
+#photo ul li{
+	float:left;
+	padding:  10px;
+	margin:20px;
+	width:250px;
+	height:165px;
+	background:black;
+	text-align: center;
+}
+#photo img{
+	padding-bottom: 15px;
+}
+
+#photo ul li a:hover{
+	text-decoration: underline;
+}
+#page{
+	float:left;
+	font-size:15px;
+	letter-spacing:2px;
+	margin-left:300px;
+	color:white;
+	width:50%;
+	height:40px;
+	background-align:center;
+	text-align:center;
+}
+#page a{
+	color:white;
+	text-decoration: none;
+}
+#page a:hover{
+	text-decoration: underline;
+}

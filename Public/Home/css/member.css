@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+#main {
+	float:left;
+	width: 78%;
+	margin-top:20px;
+	height: 530px;
+	border: 12px solid white;
+}
+
+#circle {
+	float:left;
+	width: 20px;
+	height: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+	background: white;
+	border-radius: 20px;
+}
+
+#cross {
+	float:left;
+	margin-top: 80px;
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+
+#position {
+	width: 715px;
+	float: left;
+	margin-left: 260px;
+	color: #404040;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+#img_circle {
+	float:left;
+	width: 170px;
+	height: 170px;
+	margin-top:-110px;
+	margin-left: 60px;
+	border-radius: 170px;
+	background: white;
+}
+#img_circle img{
+	float:left;
+}
+#name {
+	float:left;
+	width: 150px;
+	height: 60px;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: -150px;
+	color: white;
+}
+
+#sex_g {
+	float:left;
+	width: 17px;
+	height: 17px;
+	margin-top: 210px;
+	margin-left: -90px;
+	background: #404040;
+	border-radius: 17px;
+	border: 3px solid white;
+}
+#sex_b {
+	float:left;
+	width: 17px;
+	height: 17px;
+	margin-top: 210px;
+	margin-left: -90px;
+	background: #404040;
+	border-radius: 17px;
+	border: 3px solid white;
+}
+
+#ten1 {
+	width: 4px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 7px;
+	background: white;
+}
+
+#ten2 {
+	width: 20px;
+	height: 4px;
+	margin-top: -13px;
+	margin-left: -1px;
+	background: white;
+}
+
+#narrow{
+	font-size:30px;
+	margin-left:1px;
+	font-weight:bold;
+	margin-top:-33px;
+	color:white;
+}
+
+#jishu {
+	float:left;
+	margin-left:200px;
+	margin-top:50px;
+}
+#school {
+	float:left;
+    margin-left:200px;
+}
+#book {
+	float:left;
+	margin-left:270px;
+}
+#senior{
+	float:left;
+	margin-left:430px;
+}
+#jishu p,#school p,#book p,#senior p{
+	margin-top:-44px;
+	margin-left:70px;
+	font-size:30px;
+	color:white;
+}

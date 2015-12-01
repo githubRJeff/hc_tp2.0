@@ -1,0 +1,43 @@
+<div id="main">
+	<div id="circle"></div>
+	<div id="cross">
+		<div id="position">
+			{$class1}{$department_name1}成员<present name="class2">
+			|{$class2}{$department_name2}{$pos_name2}<present name="class3">
+			|{$class3}{$department_name3}{$pos_name3} </present></present>
+		</div>
+	</div>
+	<div id="img_circle">
+		<img src="__PUBLIC__/images/member/{$name}.png">
+	</div>
+	<div id="name">{$name}</div>
+	<notempty name="girl">
+	<div id="sex_g">
+		<div id="ten1"></div>
+		<div id="ten2"></div>
+	</div>
+	</notempty>
+	<notempty name="boy">
+	<div id="sex_b">
+		<div id="narrow">↑</div>
+	</div>
+	</notempty>
+
+	<div id="jishu">
+		<img src="__PUBLIC__/images/member/clock.png">
+		<p>级数：{$graduate}级</p>
+	</div>
+	<div id="school">
+		<img src="__PUBLIC__/images/member/school.png">
+		<p>大学：{$college}</p>
+	</div>
+	<div id="book">
+		<img src="__PUBLIC__/images/member/book.png">
+		<p>专业：{$major}</p>
+	</div>
+	<div id="senior">
+		<img src="__PUBLIC__/images/member/school.png">
+		<p>高中：{$senior}</p>
+	</div>
+	
+</div>

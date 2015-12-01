@@ -1,0 +1,10 @@
+<div id="photo">
+	<ul>
+		<volist name="filePath" id="vo" offset="$startPage" length="$imgCount">
+		<li><img src="__ROOT__/{$filePath[$key]}">                  
+		<!-- 路径是以数组的方式注册了变量，数组下标是key值 -->
+		</li>
+		</volist>
+		<div class="green-black">	{$page}</div>
+	</ul>
+</div>	

@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+body{
+	background:#404040;
+	margin:0;
+	padding:0;
+	float: left;
+	font-family: "Microsoft Yahei";
+}
+#login{
+	border-radius: 10px;
+	border:2px solid white;
+	float:left;
+	width:400px;
+	height: 400px;
+	color: white;
+	margin:120px 450px; 
+}
+
+#login ul li{
+	float:left;
+	margin: 15px 10px;
+	font-size: 20px;
+	float:left;
+	
+}
+#login ul li input{
+	width:250px;
+	height:30px;
+}
+#login img{
+	border-radius: 5px;
+}
+#login ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+	padding-left: 10px;
+}
+.logBut input{
+	margin-left: 40px;
+	margin-top: 5px;
+	border-radius: 3px;
+	float:left;
+	width:250px;
+	height:40px;
+	background:white;
+	color:black;
+}
+.rstBut input{
+	margin-left: 40px;
+	border-radius: 3px;
+	float:left;
+	margin-top: 10px;
+	width:250px;
+	height:40px;
+	background:white;
+	color:black;
+}
